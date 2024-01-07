@@ -2,87 +2,273 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
-    <!-- Add any necessary meta tags, CSS, or scripts -->
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
-        /* Add your CSS styles here */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #444;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 8px 16px;
-        }
-        nav a:hover {
-            background-color: #555;
-        }
-        /* Add more styles for other sections */
+        /* Your custom styles can go here */
     </style>
 </head>
 <body>
 
-<header>
-    <h1>My Portfolio</h1>
-</header>
-
-<nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#download-cv">Download CV</a>
-    <a href="#send-email">Send Email</a>
-    <a href="#projects">Projects</a>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav>
-
-<section id="about">
-    <h2>About Me</h2>
-    <p>This is where you can describe yourself and your background.</p>
+<!-- Header Section -->
+<header class="bg-dark text-white py-5">
+    <div class="container text-center">
+        <img src="./JayrajPic.jpeg" alt="Jayraj Photo" class="rounded-circle mb-4" style="width: 200px;">
+        <h1>Jayraj Arora</h1>
+        <p>Graduate Student at California State Univerisity, Fullerton | Product Development Intern at Modernizing Medicine | Software Engineer at Oracle</p>
+    </div>
+</header>
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>I am a versatile and results-driven software professional with a Master's in Computer Science from California State University - Fullerton. I bring extensive experience, ranging from 
+            streamlining business processes as a Product Development Intern at Modernizing Medicine to optimizing backend systems for Oracle. 
+            My proficiency in a wide array of programming languages, frameworks, and databases, coupled with a proven track record of success 
+            in diverse roles, positions me as a dynamic and adaptable contributor to any software development team.</p><br>
+        <a href="./Jayraj_Arora_Resume.pdf" class="btn btn-primary" download="YourName_Resume.pdf" target="_blank">Download Resume</a>
+    </div>
 </section>
 
-<section id="skills">
-    <h2>Skills</h2>
-    <p>Highlight your skills and expertise here.</p>
+<!-- Experience Section -->
+<section id="experience" class="py-5">
+    <div class="container">
+        <h2>Experience</h2>
+
+        <div class="row">
+            <!-- Experience Item 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Teaching Assistant</h5>
+                        <p class="card-text">California State University, Fullerton · Part-time</p>
+                        <p class="card-text">Aug 2023 - Present</p>
+                        <p class="card-text">Fullerton, California, United States</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Item 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Development Intern</h5>
+                        <p class="card-text">ModMed · Internship</p>
+                        <p class="card-text">Jun 2023 - Aug 2023 · 3 mos</p>
+                        <p class="card-text">Florida, United States</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Item 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Senior Software Developer</h5>
+                        <p class="card-text">Oracle · Full Time</p>
+                        <p class="card-text">Jan 2020 - Aug 2022 · 2 yrs 8 mos</p>
+                        <p class="card-text">Noida, India</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Item 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Software Engineer</h5>
+                        <p class="card-text">Indiamart Intermesh · Full Time</p>
+                        <p class="card-text">Jun 2019 - Oct 2019 · 5 mos</p>
+                        <p class="card-text">Noida, India</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Item 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Software Engineer</h5>
+                        <p class="card-text">Mindfire Solutions · Full Time</p>
+                        <p class="card-text">Nov 2017 - May 2019 · 1 yr 7 mos</p>
+                        <p class="card-text">Bhubaneswar, India</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Item 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Software Development Intern</h5>
+                        <p class="card-text">iB Hubs · Internship</p>
+                        <p class="card-text">Jun 2017 - Aug 2017· 3 mos</p>
+                        <p class="card-text">Hyderabad, India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
-<section id="download-cv">
-    <h2>Download CV</h2>
-    <p>Provide a link to download your CV/resume.</p>
+
+<section id="skills" class="py-5">
+    <div class="container">
+        <h2>Skills</h2>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>Javascript</li>
+                    <li>PHP</li>
+                    <li>PL/SQL</li>
+                    <li>Typescript</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Frameworks</h3>
+                <ul>
+                    <li>Spring Boot</li>
+                    <li>Angular.js</li>
+                    <li>Django</li>
+                    <li>Node.js (Basics)</li>
+                    <li>React.js (Basics)</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Databases and Cloud</h3>
+                <ul>
+                    <li>Oracle</li>
+                    <li>MySQL</li>
+                    <li>SQLite</li>
+                    <li>Postgres</li>
+                    <li>Redis</li>
+                    <li>MongoDB</li>
+                    <li>Amazon Web Services</li>
+                    <li>Firebase</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h3>Other</h3>
+                <p>Git, HTML, jQuery, CSS, AJAX, REST, XML, JSON, Microservices architecture, Unit Testing, TDD (Test-Driven Development), Docker, Kubernetes, AWS S3, Cognito, LocalStack, Tomcat Apache, Nginx, Jenkins, Hibernate, Maven, Protocol Buffer, ngrok, JIRA, Bitbucket, Postman, IntelliJ, PyCharm, scikit-learn, Tensorflow, Keras, Pandas, Numpy, NLP (Natural Language Processing), Deep Learning</p>
+            </div>
+        </div>
+    </div>
 </section>
 
-<section id="send-email">
-    <h2>Contact Me</h2>
-    <form action="/send_email" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-        <input type="submit" value="Send">
-    </form>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5">
+    <div class="container">
+        <h2>Projects</h2>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Scalable backend for Wordle game</h5>
+                        <p class="card-text">Led the development of the REST API structure, game logic, database design, and 3 initialization scripts.
+                            Optimized the games microservice with load-balancing, nginx authorization, and 3 DB replicas, for faster reads.
+                            Engineered a dynamic leaderboard, utilizing a queue for score transmission and Redis for statistics storage from games.</p>
+                        <p class="card-text"><strong>Skills:</strong> Python · Quart · Redis · RQ · Database Replication · Nginx · Microservices architecture</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">User Notes Manager</h5>
+                        <p class="card-text">Utilized body-parser, cookie-parser, and CSP middleware for enhanced security.
+                            Gained knowledge of OWASP's top 10 security vulnerabilities and how to write better code in JavaScript.
+                            Implemented user authentication with secure session management.
+                            Designed user data management, including signup, login, and note storage.</p>
+                        <p class="card-text"><strong>Skills:</strong> Node.js · JavaScript · Git · Linux</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Speech Emotion Recognition</h5>
+                        <p class="card-text">Enhanced the accuracy of the Boosting ensemble technique to 86% by integrating diverse datasets.
+                            Evaluated and compared MLP, CNN, and LSTM classifiers with traditional ML models (KNN, SVM, and Random Forest).</p>
+                        <p class="card-text"><strong>Skills Used:</strong> scikit-learn · pandas · numpy · LaTeX · Machine Learning Algorithms</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more project cards here -->
+        </div>
+    </div>
 </section>
 
-<section id="projects">
-    <h2>Projects</h2>
-    <!-- Display your projects here -->
+<!-- Contact Me Section -->
+<section id="contact" class="py-5 bg-light">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/xkndnaze" method="POST">
+            <div class="mb-3">
+                <label for="email" class="form-label">Your Email:</label>
+                <input type="email" class="form-control" id="email" name="_replyto" placeholder="Your email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message:</label>
+                <textarea class="form-control" id="message" name="message" placeholder="Your message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+
+        <div class="mt-4">
+            <a href="https://www.linkedin.com/in/jayrajarora/" target="_blank" class="btn btn-primary me-3">
+                <i class="fab fa-linkedin"></i> Connect via LinkedIn
+            </a>
+            <a href="https://github.com/JAYRAJARORA" target="_blank" class="btn btn-dark">
+                <i class="fab fa-github"></i> GitHub Profile
+            </a>
+        </div>
+        
+    </div>
 </section>
 
 <footer>
-    <p>&copy; 2024 My Portfolio</p>
+    <p>&copy; Jayraj Arora</p>
 </footer>
 
 </body>
