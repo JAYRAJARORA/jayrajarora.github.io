@@ -8,7 +8,28 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <style></style>
+    <style>
+        .skill-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skill-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .skill-item img {
+            width: 30px;
+            /* Adjust the size of the icon */
+            height: 30px;
+            /* Adjust the size of the icon */
+            border-radius: 50%;
+            /* Make it round */
+            margin-right: 10px;
+        }
+    </style>
 
 </head>
 
@@ -83,7 +104,8 @@
                     </div>
                 </div>
                 <div class="col-md-5 text-center">
-                    <img src="./JayrajArora.png" alt="Jayraj Photo" class="rounded-circle mb-4" style="width: 200px;">
+                    <img src="images/JayrajArora.png" alt="Jayraj Photo" class="rounded-circle mb-4"
+                        style="width: 200px;">
                     <h3>Jayraj Arora</h3>
                 </div>
 
@@ -103,7 +125,8 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Teaching Assistant</h5>
-                            <p class="card-text">California State University, Fullerton · Part-time</p>
+                            <p class="card-text"><a href="https://www.fullerton.edu/" target="_blank">California State
+                                    University, Fullerton</a> · Part-time</p>
                             <p class="card-text">Aug 2023 - Present</p>
                             <p class="card-text">Fullerton, California, United States</p>
                         </div>
@@ -115,7 +138,8 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Product Development Intern</h5>
-                            <p class="card-text">ModMed · Internship</p>
+                            <p class="card-text"><a href="https://www.modmed.com/" target="_blank">ModMed</a> ·
+                                Internship</p>
                             <p class="card-text">Jun 2023 - Aug 2023 · 3 mos</p>
                             <p class="card-text">Florida, United States</p>
                         </div>
@@ -127,7 +151,8 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Senior Software Developer</h5>
-                            <p class="card-text">Oracle · Full Time</p>
+                            <p class="card-text"><a href="https://www.oracle.com/" target="_blank">Oracle</a> · Full
+                                Time</p>
                             <p class="card-text">Jan 2020 - Aug 2022 · 2 yrs 8 mos</p>
                             <p class="card-text">Noida, India</p>
                         </div>
@@ -139,7 +164,8 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Software Engineer</h5>
-                            <p class="card-text">Indiamart Intermesh · Full Time</p>
+                            <p class="card-text"><a href="https://www.indiamart.com/" target="_blank">Indiamart
+                                    Intermesh</a> · Full Time</p>
                             <p class="card-text">Jun 2019 - Oct 2019 · 5 mos</p>
                             <p class="card-text">Noida, India</p>
                         </div>
@@ -151,7 +177,8 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Software Engineer</h5>
-                            <p class="card-text">Mindfire Solutions · Full Time</p>
+                            <p class="card-text"><a href="https://www.mindfiresolutions.com/" target="_blank">Mindfire
+                                    Solutions</a> · Full Time</p>
                             <p class="card-text">Nov 2017 - May 2019 · 1 yr 7 mos</p>
                             <p class="card-text">Bhubaneswar, India</p>
                         </div>
@@ -163,7 +190,8 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Software Development Intern</h5>
-                            <p class="card-text">iB Hubs · Internship</p>
+                            <p class="card-text"><a href="https://ibhubs.co/" target="_blank">iB Hubs</a> · Internship
+                            </p>
                             <p class="card-text">Jun 2017 - Aug 2017· 3 mos</p>
                             <p class="card-text">Hyderabad, India</p>
                         </div>
@@ -173,7 +201,6 @@
         </div>
     </section>
 
-
     <section id="skills" class="py-3">
         <div class="container">
             <h2>Skills</h2>
@@ -181,133 +208,515 @@
             <div class="row">
                 <div class="col-md-4">
                     <h3>Programming Languages</h3>
-                    <ul>
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>Javascript</li>
-                        <li>PHP</li>
-                        <li>PL/SQL</li>
-                        <li>Typescript</li>
-                    </ul>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="skill-list">
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/java_icon.png" alt="Java Icon">
+                                        <span>Java</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/python_icon.png" alt="Python Icon">
+                                        <span>Python</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/PLSQL_icon.png" alt="PL/SQL Icon">
+                                        <span>PL/SQL</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/html_icon.png" alt="HTML Icon">
+                                        <span>HTML</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/css_icon.png" alt="CSS Icon">
+                                        <span>CSS</span>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="skill-list">
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/javascript_icon.png" alt="JS Icon">
+                                        <span>Javascript</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/typescript_icon.png" alt="Typescript Icon">
+                                        <span>Typescript</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/php_icon.png" alt="PHP Icon">
+                                        <span>PHP</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/groovy_icon.png" alt="Groovy Icon">
+                                        <span>Groovy</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/C_icon.png" alt="C Icon">
+                                        <span>C</span>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+
                 </div>
                 <div class="col-md-4">
                     <h3>Frameworks</h3>
-                    <ul>
-                        <li>Spring Boot</li>
-                        <li>AngularJS</li>
-                        <li>Django</li>
-                        <li>Node.js</li>
-                        <li>React</li>
-                        <li>Quart</li>
-                    </ul>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="skill-list">
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/spring_icon.png" alt="Spring Boot Icon">
+                                        <span>Spring Boot</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/angular_icon.png" alt="Angular Icon">
+                                        <span>Angular</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/django_icon.svg" alt="Django Icon">
+                                        <span>Django</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/express_icon.jpeg" alt="Express Icon">
+                                        <span>Express</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <ul class="skill-list">
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/React_icon.png" alt="React Icon">
+                                        <span>React</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/Quart_icon.png" alt="Quart Icon">
+                                        <span>Quart</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/Symfony_icon.png" alt="Symfony Icon">
+                                        <span>Symfony</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
                 </div>
                 <div class="col-md-4">
                     <h3>Databases</h3>
-                    <ul>
-                        <li>Oracle</li>
-                        <li>MySQL</li>
-                        <li>SQLite</li>
-                        <li>Postgres</li>
-                        <li>Redis</li>
-                        <li>MongoDB</li>
-                        <li>Firebase</li>
-                    </ul>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="skill-list">
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/oracle_icon.png" alt="Oracle Icon">
+                                        <span>Oracle</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/MySQL_icon.png" alt="MySQL> Icon">
+                                        <span>MySQL</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/sqlite_icon.png" alt="SQLite Icon">
+                                        <span>SQLite</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/Postgres_icon.png" alt="Postgres Icon">
+                                        <span>Postgres</span>
+                                    </div>
+                                </li>                                             
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="skill-list">
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/mongodb_icon.png" alt="MongoDB Icon">
+                                        <span>MongoDB</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/firebase_icon.png" alt="Firebase Icon">
+                                        <span>Firebase</span>
+                                    </div>
+                                </li>   
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-4">
                     <h3>Web Servers</h3>
-                    <ul>
-                        <li>Apache Tomcat</li>
-                        <li>Nginx</li>
+                    <ul class="skill-list">
+                        <li>
+                            <div class="skill-item">
+                                <img src="images/tomcat_icon.png" alt="Tomcat Icon">
+                                <span>Apache Tomcat</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-item">
+                                <img src="images/nginx_icon.png" alt="Nginx Icon">
+                                <span>Nginx</span>
+                            </div>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <h3>Cloud</h3>
-                    <ul>
-                        <li>Amazon Web Services</li>
-                        <li>Oracle Cloud</li>
+                    <ul class="skill-list">
+                        <li>
+                            <div class="skill-item">
+                                <img src="images/aws_icon.jpeg" alt="AWS Icon">
+                                <span>Amazon Web Services</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-item">
+                                <img src="images/oracle_cloud_icon.jpeg" alt="Oracle Cloud Icon">
+                                <span>Oracle Cloud</span>
+                            </div>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <h3>Technologies</h3>
-                    <ul>
-                        <li>Microservices architecture</li>
-                        <li>Database Replication and Sharding</li>
-                        <li>Test Driven Development</li>
-                        <li>Behaviour Driven Development</li>
-                        <li>Scalable web architecture</li>
-                    </ul>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="skill-list">
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/microservice_icon.jpeg" alt="Microservice Icon">
+                                        <span>Microservices architecture</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/scalable_icon.jpeg" alt="Scalable web architectureIcon">
+                                        <span>Scalable web architecture</span>
+                                    </div>
+                                </li>  
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/load_balancing_icon.png" alt="Load Balancing Icon">
+                                        <span>Load Balancing</span>
+                                    </div>
+                                </li>
+
+                            </ul>                            
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="skill-list">
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/db_replication_icon.png" alt="Database Replication Icon">
+                                        <span>Database Replication and Sharding</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/tdd_icon.jpeg" alt="Test Driven Development Icon">
+                                        <span>Test Driven Development</span>
+                                    </div>
+                                </li> 
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/bdd_icon.png" alt="Behaviour Driven Development Icon">
+                                        <span>Behaviour Driven Development</span>
+                                    </div>
+                                </li>
+                             
+                            </ul>
+                        </div>
+
+                    </div>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <h3>Tools</h3>
                     <div class="row">
 
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Docker</li>
-                                <li>Webhooks</li>
-                                <li>Minikube</li>
-                                <li>PyCharm</li>
-                                <li>Jupyter</li>
-                                <li>IntelliJ</li>
-                                <li>Eclipse</li>
-                                <li>Postman</li>
-                                <li>Jenkins</li>
+                        <div class="col-md-4">
+                            <ul class="skill-list">
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/vscode_icon.png" alt="VS Code Icon">
+                                        <span>Visual Studio Code</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/intellij_icon.jpeg" alt="IntelliJ Icon">
+                                        <span>IntelliJ</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/pycharm_icon.jpeg" alt="PyCharm Icon">
+                                        <span>PyCharm</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/eclipse_icon.png" alt="Eclipse Icon">
+                                        <span>Eclipse</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/postman_icon.png" alt="Postman Icon">
+                                        <span>Postman</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/soapui_icon.jpeg" alt="SOAP UI Icon">
+                                        <span>SOAP UI</span>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
-                        <div class="col-md-6">
-                            <ul>
+                        <div class="col-md-4">
+                            <ul class="skill-list">
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/SQLDeveloper_icon.svg" alt="SQL Developer Icon">
+                                        <span>SQL Developer</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/MySQL_Workbench_icon.jpeg" alt="MySQL Workbench Icon">
+                                        <span>MySQL Workbench</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/git_icon.png" alt="Git Icon">
+                                        <span>Git</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/docker_icon.jpeg" alt="Docker Icon">
+                                        <span>Docker</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/jenkins_icon.jpeg" alt="Jenkins Icon">
+                                        <span>Jenkins</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/minikube_icon.jpeg" alt="Minikube Icon">
+                                        <span>Minikube</span>
+                                    </div>
+                                </li>
 
-                                <li>npm</li>
-                                <li>Maven</li>
-                                <li>Gradle</li>
-                                <li>SQL Developer</li>
-                                <li>MySQL Workbench</li>
-                                <li>JIRA</li>
-                                <li>Bitbucket</li>
-                                <li>OBIEE</li>
-                                <li>Oracle APEX</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4">
+                            <ul class="skill-list">
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/jira_icon.svg" alt="JIRA Icon">
+                                        <span>JIRA</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/confluence_icon.svg" alt="Confluence Icon">
+                                        <span>Confluence</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/sonarqube_icon.svg" alt="Sonar Qube Icon">
+                                        <span>Sonar Qube</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/kibana_icon.png" alt="Kibana Icon">
+                                        <span>Kibana</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/oracle_apex_icon.jpeg" alt="Oracle APEX Icon">
+                                        <span>Oracle APEX</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/office_icon.svg" alt="Office Icon">
+                                        <span>Microsoft Office</span>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <h3>Libraries</h3>
-                    <ul>
-                        <li>AJAX</li>
-                        <li>jQuery</li>
-                        <li>Boostrap</li>
-                        <li>Hibernate</li>
-                        <li>JUnit</li>
-                        <li>Protocol Buffer</li>
+                    <ul class="skill-list">
+                        <li>
+                            <div class="skill-item">
+                                <img src="images/boostrap_icon.jpeg" alt="Boostrap Icon">
+                                <span>Bootstrap</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-item">
+                                <img src="images/jQuery_icon.png" alt="jQuery Icon">
+                                <span>jQuery</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-item">
+                                <img src="images/ajax_icon.png" alt="AJAX Icon">
+                                <span>AJAX</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-item">
+                                <img src="images/hibernate_icon.svg" alt="Hibernate Icon">
+                                <span>Hibernate</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-item">
+                                <img src="images/junit_icon.jpeg" alt="JUnit Icon">
+                                <span>JUnit</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-item">
+                                <img src="images/protobuf_icon.jpeg" alt="Protobuf Icon">
+                                <span>Protocol Buffer</span>
+                            </div>
+                        </li>
                     </ul>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <h3>Machine Learning Stack</h3>
                     <div class="row">
                         <div class="col-md-6">
-                            <ul>
-                                <li>scikit-learn</li>
-                                <li>Keras</li>
-                                <li>Tensorflow</li>
-                                <li>Pandas</li>
-                                <li>Numpy</li>
-                                <li>Jupyter Notebook</li>
+                            <ul class="skill-list">
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/sklearn_icon.png" alt="Sklearn Icon">
+                                        <span>scikit-learn</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/keras_icon.png" alt="Keras Icon">
+                                        <span>Keras</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/tensorflow_icon.png" alt="Tensorflow Icon">
+                                        <span>Tensorflow</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/pandas_icon.png" alt="Pandas Icon">
+                                        <span>Pandas/span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/numpy_icon.png" alt="Numpy Icon">
+                                        <span>Numpy</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/matplotlplib_icon.svg" alt="Matplotlib Icon">
+                                        <span>Matplotlib</span>
+                                    </div>
+                                </li>
                             </ul>
 
                         </div>
                         <div class="col-md-6">
-                            <ul>
-                                <li>Google Collab</li>
-                                <li>Matplotlib</li>
-                                <li>Seaborn</li>
-                                <li>Natural Language Processing</li>
+                            <ul class="skill-list">
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/jupyter_icon.jpeg" alt="Jupyter Icon">
+                                        <span>Jupyter Notebook</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/googlecolab_icon.jpeg" alt="Google Collab Icon">
+                                        <span>Google Collab</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-item">
+                                        <img src="images/seaborn_icon.svg" alt="Seaborn Icon">
+                                        <span>Seaborn</span>
+                                    </div>
+                                </li>
                             </ul>
 
                         </div>
@@ -326,7 +735,8 @@
                 <div class="col-md-4">
                     <div class="card mb-4">
                         <div class="card-body">
-                            <h5 class="card-title">Scalable backend for Wordle game</h5>
+                            <h5 class="card-title"><a href="https://github.com/JAYRAJARORA/wordle-backend/tree/project4"
+                                    target="_blank">Scalable backend for Wordle game</a></h5>
                             <p class="card-text">
                             <ul>
                                 <li>Led the development of the REST API structure, game logic, database
@@ -346,7 +756,8 @@
                 <div class="col-md-4">
                     <div class="card mb-4">
                         <div class="card-body">
-                            <h5 class="card-title">User Notes Manager</h5>
+                            <h5 class="card-title"><a href="https://github.com/Rohit-Mene/Q3-Nodejsapp"
+                                    target="_blank">User Notes Manager</a></h5>
                             <p class="card-text">
                             <ul>
                                 <li>Utilized body-parser, cookie-parser, and CSP middleware for enhanced
@@ -370,7 +781,8 @@
                 <div class="col-md-4">
                     <div class="card mb-4">
                         <div class="card-body">
-                            <h5 class="card-title">Speech Emotion Recognition</h5>
+                            <h5 class="card-title"><a href="https://ieeexplore.ieee.org/document/10099344"
+                                    target="_blank">Speech Emotion Recognition</a></h5>
                             <p class="card-text">
                             <ul>
                                 <li>Enhanced the accuracy of the Boosting ensemble technique to 86% by
@@ -401,19 +813,51 @@
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
                     <h5>Oracle Certified Associate, Java SE 8 Programmer</h5>
-                    <p>Oracle</p>
+                    <p>
+                    <div class="skill-item">
+                        <img src="images/oracleuni_icon.png" alt="Oracle University Icon">
+                        <span>Oracle University</span>
+                    </div>
+                    </p>
+                    
                 </li>
                 <li class="list-group-item">
                     <h5>Spring and Hibernate for Beginners (includes Spring Boot)</h5>
-                    <p>Udemy</p>
+                    <p>
+                        <div class="skill-item">
+                            <img src="images/udemy_icon.png" alt="Udemy Icon">
+                            <span>Udemy</span>
+                        </div>
+                        </p>
                 </li>
                 <li class="list-group-item">
+                    <h5>Angular - The Complete Guide </h5>
+                    <p>
+                        <div class="skill-item">
+                            <img src="images/udemy_icon.png" alt="Udemy Icon">
+                            <span>Udemy</span>
+                        </div>
+                        </p>
+                </li>
+
+
+                <li class="list-group-item">
                     <h5>Oracle Cloud Infrastructure Foundations Certified Associate</h5>
-                    <p>Oracle</p>
+                    <p>
+                        <div class="skill-item">
+                            <img src="images/oracleuni_icon.png" alt="Oracle University Icon">
+                            <span>Oracle University</span>
+                        </div>
+                    </p>
                 </li>
                 <li class="list-group-item">
                     <h5>Python for Everybody Specialization</h5>
-                    <p>Coursera</p>
+                    <p>
+                        <div class="skill-item">
+                            <img src="images/coursera_icon.png" alt="Coursera Icon">
+                            <span>Coursera</span>
+                        </div>
+                        </p>
                 </li>
             </ul>
         </div>
